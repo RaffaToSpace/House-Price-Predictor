@@ -34,7 +34,7 @@ A test data set is provided, with a sample size of 439.
      This package contains the all the necessary functions and models to preprocess the data, reduce the data dimensionality and produce the house price predictions.
  
 ## Conclusions
-
+The predictions made with the SGD regressor show good accuracy, with a mean absolute error on the test dataset house prices of $39824. The model is easily optimisable to obtain a lower MAE, through further use of grid searching and cross validation, and the project can be used as a playground for data science learners.
 
 
 [Predict the Housing Price]: https://www.kaggle.com/c/predict-the-housing-price/
