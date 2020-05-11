@@ -6,7 +6,9 @@
  - Conclusions
 
 ## Motivation
-Based on the [Predict the Housing Price] Kaggle competition, in this project I go through all passages of a data science commercial project to analyse the data, prepare it, and feed it to ML models to predict the price of houses in Ames, Iowa, given a number of houses properties. The goal is to make a predictor for house prices and identify the key variables that influence the house price in Ames the most. The analysis is easily extendable to similar rural towns, and suburban town in which a centre or another location of interest is identifiable.
+Based on the [Predict the Housing Price] Kaggle competition, in this project I go through all passages of a data science commercial project to analyse the data, prepare it, and feed it to ML models to predict the price of houses in Ames, Iowa, given a number of houses properties. The goal is to make a predictor for house prices and identify the key variables that influence the house price in Ames the most. The analysis is easily extendable to similar rural towns, and suburban town in which a centre or another location of interest is identifiable.  
+
+See [my post on Medium] for more details on my work on this project.
 
 The provided dataset can also be seen as a playground to practice and explore data science techniques. I have have structured my project as follows, with the purpose of showcasing recently acquired competencies and receive constructive feedback:
 - Data exploration and preprocessing;
@@ -30,11 +32,12 @@ A test data set is provided, with a sample size of 439.
      In this notebook I use a simple linear regression model to produce predictions with the preprocessed training sets;
  - **pthp_SGD.ipynb**:
      In this notebook I implement and optimise a Stochastic Gradient Descent Regressor to produce predictions with the preprocessed training sets;
-  - **pthp_data_prep.py**: 
-     This package contains the all the necessary functions and models to preprocess the data, reduce the data dimensionality and produce the house price predictions.
+  - **pthp_data_prep package**: 
+     This package contains the all the necessary functions and models to preprocess the data, reduce the data dimensionality and produce the house price predictions. It has been uploaded to TestPyPi, and it can be installed by running `pip install -i https://test.pypi.org/simple/ pthp-data-prep` in terminal.
  
 ## Conclusions
 The predictions made with the SGD regressor show good accuracy, with a mean absolute error on the test dataset house prices of $39824. The model is easily optimisable to obtain a lower MAE, through further use of grid searching and cross validation, and the project can be used as a playground for data science learners.
 
 
 [Predict the Housing Price]: https://www.kaggle.com/c/predict-the-housing-price/
+[my post on Medium]: https://medium.com/@raffaelenolli/how-to-make-a-simple-machine-learning-project-and-learn-in-the-process-c4d0dd605eb9
