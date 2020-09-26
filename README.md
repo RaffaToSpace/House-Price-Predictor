@@ -1,9 +1,15 @@
 # Housing-Price-Predictor
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RaffaToSpace/House-Price-Predictor/master)
 ## Table of Contents
+ - Installation and use
  - Motivation
  - The data
  - Files description
  - Conclusions
+
+## Installation and use
+The code is described as it unfolds within the notebooks.
+You can clone the repository, download the single files or alternatively [use it in the Binder environment].
 
 ## Motivation
 Based on the [Predict the Housing Price] Kaggle competition, in this project I go through all passages of a data science commercial project to analyse the data, prepare it, and feed it to ML models to predict the price of houses in Ames, Iowa, given a number of houses properties. The goal is to make a predictor for house prices and identify the key variables that influence the house price in Ames the most. The analysis is easily extendable to similar rural towns, and suburban town in which a centre or another location of interest is identifiable.  
@@ -39,5 +45,6 @@ A test data set is provided, with a sample size of 439.
 The predictions made with the SGD regressor show good accuracy, with a mean absolute error on the test dataset house prices of $39824. The model is easily optimisable to obtain a lower MAE, through further use of grid searching and cross validation, and the project can be used as a playground for data science learners.
 
 
+[use it in the Binder environment]: https://mybinder.org/v2/gh/RaffaToSpace/House-Price-Predictor/master
 [Predict the Housing Price]: https://www.kaggle.com/c/predict-the-housing-price/
 [my post on Medium]: https://medium.com/@raffaelenolli/how-to-make-a-simple-machine-learning-project-and-learn-in-the-process-c4d0dd605eb9
